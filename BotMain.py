@@ -15,9 +15,9 @@ from ForBot import gen_markup
 
 #BotCom    
     
-@bot.message_handler(commands=[''])
+@bot.message_handler(commands=['github'])
 def send_hello(message):
-    bot.reply_to(message, "Мой код открыт для всех на посмотри ")
+    bot.reply_to(message, "Мой код открыт для всех на посмотри https://github.com/EgoriK322/TelegBot/blob/main/BotMain.py")
     
 @bot.message_handler(commands=['bye'])
 def send_bye(message):
